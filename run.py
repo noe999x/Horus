@@ -27,7 +27,7 @@ def memek():
 def kontol():
     try:open('DATA/alert.json','r').read()
     except FileNotFoundError:memek()
-    #print('Tools telah dihapus, terimakasih atas waktunya menjadi kelinci percobaan')
+    print('Tools telah dihapus, terimakasih atas waktunya menjadi kelinci percobaan')
     #import main
 
 kontol()
