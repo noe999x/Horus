@@ -15,7 +15,8 @@ def memek():
     susu_nahida = input(f" Apakah anda mengerti? : ")
     if susu_nahida in ["y","Y","Ya","YA"]:
        open('DATA/alert.json','w').write('tools by ikz')
-       turu(2);import main
+       turu(2);print('Tools telah dihapus, terimakasih atas waktunya menjadi kelinci percobaan')
+       #import main
     elif susu_nahida in ["t","T","tidak","Tidak","TIDAK"]:
          print("Bye!!!")
          turu(3);exit()
@@ -26,7 +27,8 @@ def memek():
 def kontol():
     try:open('DATA/alert.json','r').read()
     except FileNotFoundError:memek()
-    import main
+    #print('Tools telah dihapus, terimakasih atas waktunya menjadi kelinci percobaan')
+    #import main
 
 kontol()
 #(:)kontol.
